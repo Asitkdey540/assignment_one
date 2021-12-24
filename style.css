@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+nav{
+    text-align: right;
+    margin-right: 120px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.section{
+    height: 600px;
+    padding-bottom: 80px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 5px;
+}
+p{
+    font-size: 20px;
+}
+
+.highlight-one{
+    color: #363958;
+}
+
+.highlight-two{
+    color: #FF8367;
+}
+
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.text_part{
+    padding-top: 10%;
+}
+.half_width img{
+    width: 70%;
+}
+.link_btn{
+    border-radius: 4px;
+    background-color: #FF8063;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+#section-three h2{
+    text-align: center;
+}
+
+#section-three{
+    padding: 10%;
+    background-color: rgb(245, 245, 245);
+}
+
+.work{
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 15px;
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+    padding: 18px;
+    box-shadow: 20px 20px 100px 1px rgb(221, 221, 221);
+}
+
+.work p{
+    font-size: 15px;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+#section-four{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inquiry{
+    width: 650px;
+    height: 200px;
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#inquiry h1{
+    font-size: 30px;
+    color: white;
+}
+
+#connection h4{
+    font-size: 15px;
+    color: gray;
+}
+
+#connection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#img{
+    width: 100px;
+    height: 100px;
+}
+
+#img img{
+    width: 30px;
+}
