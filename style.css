@@ -126,10 +126,11 @@ p{
     flex-direction: column;
 }
 #img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 70px;
 }
 
 #img img{
     width: 30px;
+    padding-left: 12px;
 }
